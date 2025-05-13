@@ -13,3 +13,17 @@ mahasiswa(string);
 mahasiswa(int iNim, string iNama);
 void cetak();
 };
+mahasiswa :: mahasiswa(){
+    nim = iNim; // definisi hanya NIM
+}
+
+mahasiswa :: mahasiswa(string iNama){
+    nama = iNama; // definisi hanya NAMA
+}
+
+void mahasiswa::cetak(){
+
+    cout << endl << "Nim = " << nim << endl;
+    cout << "Nama = " << nama << endl;
+}
+
