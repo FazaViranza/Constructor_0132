@@ -11,11 +11,3 @@ class buku {
         return this->judul;
     }
 };
-
-int main()
-{
-    buku bukunya;
-    //chain function calls
-    cout<<bukunya.setJudul("Mateematika").getJudul();
-    return 0;
-}
